@@ -11,8 +11,10 @@ namespace IautoDemo
             myCar.Stop();
             myCar.OpenDoor();
 
-            var myTrain = new Train();
-            myTrain.OpenDoor();
+            var mySC = new SmartCar();
+            mySC.OpenDoor();
+
+
 
         }
     }

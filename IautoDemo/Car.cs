@@ -11,6 +11,10 @@ namespace IautoDemo
             Console.WriteLine("The door opens for the car class");
         }
 
+        public void ShutDoor()
+        {
+            Console.WriteLine("The door opens for the car class");
+        }
 
     }
 }
