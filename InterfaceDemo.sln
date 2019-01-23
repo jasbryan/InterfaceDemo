@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IautoDemo", "IautoDemo\IautoDemo.csproj", "{73E63F17-6210-4F8D-A846-C909DE760BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{E8BF496A-F01E-4E5A-ACDB-273C9C8FB325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{E8BF496A-F01E-4E5A-ACDB-273C9C8FB325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelagateDemo", "DelagateDemo\DelagateDemo.csproj", "{E56FD44E-6D2C-454F-B4B1-C043F508A270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelagateDemo", "DelagateDemo\DelagateDemo.csproj", "{E56FD44E-6D2C-454F-B4B1-C043F508A270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemoTwo", "DelegateDemoTwo\DelegateDemoTwo.csproj", "{4EE0F414-B39C-4679-8ABD-CDD0108C1E0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E56FD44E-6D2C-454F-B4B1-C043F508A270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56FD44E-6D2C-454F-B4B1-C043F508A270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56FD44E-6D2C-454F-B4B1-C043F508A270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE0F414-B39C-4679-8ABD-CDD0108C1E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE0F414-B39C-4679-8ABD-CDD0108C1E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE0F414-B39C-4679-8ABD-CDD0108C1E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE0F414-B39C-4679-8ABD-CDD0108C1E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
