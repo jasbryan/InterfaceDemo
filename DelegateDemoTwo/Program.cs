@@ -6,16 +6,11 @@ namespace DelegateDemoTwo
     {
         static void Main(string[] args)
         {
-            //    var n1 = new NumberChanger(Calculator.AddNumber);
-            //    Console.WriteLine(n1(20));
+            var n1 = new Func<int,int>(Calculator.AddNumber);
+            Console.WriteLine(n1(20));
 
-            //    var n2 = new NumberChanger(Square);
-            //    Console.WriteLine(n2(34));
-
-            //}
-
-            //static int Square(int num) => num * num;
-
+            var n2 = new Func<int,int>(Square);
+            Console.WriteLine(n2(34));
 
             var c1 = new Car(10, 100);
             var c2 = new Car();
@@ -47,6 +42,7 @@ namespace DelegateDemoTwo
             Console.WriteLine(msg.ToUpper());
         }
 
+        static int Square(int num) => num * num;
 
     }
 }
