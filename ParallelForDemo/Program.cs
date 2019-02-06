@@ -10,7 +10,29 @@ namespace ParallelForDemo
         {
             //ParallelFor();
             //SequentialFor();
-            ThreadingThruTask();
+            //ThreadingThruTask();
+
+            string[] messages = { "First Task", "Second task", "Third task", "Fourth task" };
+
+            foreach (string msg in messages)
+            {
+                //var t = new Task((m) => printMessage((string)(m), msg);
+                Task myTask = new Task( obj => printMessage( (string)obj), msg);
+                myTask.Start();
+
+            }
+
+            Console.WriteLine("Main is done");
+            Console.ReadLine();
+
+
+
+
+        }
+
+        static void printMessage(string msg)
+        {
+            Console.WriteLine("Msssage : {0} ", msg);
         }
 
         static void ParallelFor()
